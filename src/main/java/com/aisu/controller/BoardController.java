@@ -27,7 +27,8 @@ public class BoardController {
 	// @AllArgsConstructor로 인해 객체를 생성할 때 자동주입.
 	// 만일, 생성자를 만들지 않을 경우에는 @Setter(onMethod_ = {@Autowired})를 이용해서 처리해야 함.
 	private BoardService service;
-
+	String gitTest = "깃테스트용";
+	
 	@GetMapping("/list")
 	public void list(Criteria cri, Model model) {
 		log.info("list" + cri);
