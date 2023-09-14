@@ -119,7 +119,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# files
-*.xml
+# my Ignored option
+.settings/
+.classpath
+.project
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
